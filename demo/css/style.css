@@ -1,0 +1,138 @@
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+	margin:0;
+	color: #fff;
+	text-align: center;
+	background-color: #252934;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #252934;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+<!-- Cosas de la portada -->
+
+
+.flex {
+	position:fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+	margin: 23% auto;
+	width: 70%;
+}
+
+.text {
+    font-size: 30pt;
+	align-items: center;
+	font-family: 'Raleway';
+    line-height: 40pt;
+    margin: 0 0 20px 0;
+    pointer-events: none;
+    z-index: 2;
+	position: fixed;
+	
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+	
+}
+
+.highlight {
+    font-family: "Raleway";
+	font-weight:600;
+}
+
+.highlight {
+    color: #e31b6d;
+}
+
+.button {
+    padding: 12px 50px 12px 20px;
+}
+
+.button {
+    margin-top: 53px;
+    padding: 12px 40px 12px 15px;
+    position: relative;
+}
+
+
+.button {
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 0px 20px;
+    transition: all 0.5s;
+}
